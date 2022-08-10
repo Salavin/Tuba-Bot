@@ -1,0 +1,25 @@
+{
+  "name": "tubabot",
+  "version": "1.0.0",
+  "description": "A bot for the 2022 I.S.U.T.U.B.A.S.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salavin/Tuba-Bot.git"
+  },
+  "author": "Sam Lavin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salavin/Tuba-Bot/issues"
+  },
+  "homepage": "https://github.com/Salavin/Tuba-Bot#readme",
+  "dependencies": {
+    "discord.js": "^14.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  }
+}
