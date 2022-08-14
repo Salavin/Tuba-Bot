@@ -71,6 +71,11 @@ client.on("interactionCreate", async interaction =>
 			}
 		});
 	}
+	else if (commandName == "restart")
+	{
+		await interaction.reply({ content: "Brb!", ephemeral: true });
+		process.exit(0);
+	}
 	else if (interaction.isButton)
 	{
 		switch (interaction.customId)

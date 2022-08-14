@@ -7,6 +7,9 @@ const commands =
 	new SlashCommandBuilder()
 		.setName("roles")
 		.setDescription("Lets you add/remove roles to yourself for viewing specific channels"),
+	new SlashCommandBuilder()
+		.setName("restart")
+		.setDescription("Restarts/updates the bot"),
 ].map(command => command.toJSON());
 
 const rest = new REST({ version: "10" }).setToken(token);
